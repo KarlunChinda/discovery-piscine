@@ -1,3 +1,3 @@
-name = input("Hey, what's your first name? : ")
-surname = input("And your last name? : ")
+name = input("Hey, what's your first name? : ").strip()
+surname = input("And your last name? : ").strip()
 print("Well, pleased to meet you, " + name + " " + surname + ".")
